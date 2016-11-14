@@ -3,10 +3,13 @@
 	y lo muestro por 'getElementById' al presionar el botón 'MOSTRAR'
 */
 function Mostar()
-{var mitexto;
-	sad
-	mitexto=prompt("por favor ingrese un texto")
-	document.getElementById("elNombre").value=mitexto;
+{
 
+	var texto;
+	
+	texto = prompt("ingresar nombre");
+
+	document.getElementById ("elNombre").value = texto;
+	
 }
 
