@@ -4,12 +4,13 @@
 */
 function Mostar()
 {
-
 	var texto;
-	
-	texto = prompt("ingresar nombre");
+	texto = prompt("poner nombre");
+	document.getElementById('elNombre').value=texto;
 
-	document.getElementById ("elNombre").value = texto;
+
+
+	
 	
 }
 
