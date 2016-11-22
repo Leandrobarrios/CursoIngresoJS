@@ -2,10 +2,10 @@
 y luego mostrarlo por 'Alert' al presionar el botón  'MOSTRAR'*/
 function Mostar()
 {
-	var texto;
+	
+	var texto
 	texto = document.getElementById('elNombre').value;
 	alert (texto);
-	
 
 
 
