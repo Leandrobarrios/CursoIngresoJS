@@ -31,7 +31,75 @@ if(cantidad>5)
 {
 	precioFinal=precioBruto*0.5;
 }
+if(cantidad==5)
+{	
+	if(marca=="ArgentinaLuz")
+	{
+		precioFinal=precioBruto*0.6;
 
+	}	
+	else
+	{
+		precioFinal=precioBruto*0.7;
+	}	
+
+
+}
+
+if (cantidad==4)
+{
+
+	if(marca=="ArgentinaLuz"|| marca=="FelipeLamparas")
+	{
+		precioFinal=precioBruto*0.7;
+
+	}	
+	else
+	{
+		precioFinal=precioBruto*0.8;
+	}	
+
+}
+
+if (cantidad==3)
+{
+	if(marca=="ArgentinaLuz")
+	{
+		precioFinal=precioBruto*0.85;
+
+	}
+	else
+	{
+		if(marca=="FelipeLamparas")
+		{
+			precioFinal=precioBruto*0.90;
+		}
+		else
+		{
+			precioFinal=precioBruto*0.95;
+		}
+
+
+
+
+
+
+	}	
+
+
+
+
+
+
+
+}
+if(precioFinal>120)
+{	
+var impuesto
+impuesto = precioFinal*0.10;
+precioFinal=precioFinal*1.10;
+alert("usted pago" + impuesto+"de IIBB");
+}
 document.getElementById('precioDescuento').value=precioFinal;
 
 }
