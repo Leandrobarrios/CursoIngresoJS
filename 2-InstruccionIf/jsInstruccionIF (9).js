@@ -1,24 +1,12 @@
 function Mostrar()
 {
 	//Genero el número RANDOM entre 1 y 10 
-	var numero; //CREAR LA VARIABLE QUE VAS A MOSTRAR POR PANTALLA
+	var mirandom
+	//mirandom= Math.floor((Math.random() * 3) + 5); entre 5 y 8
+	mirandom= Math.floor((Math.random() * 10) + 1);// entre 1 y 9
+	//mirandom= Math.floor((Math.random() * 100) + 1); entre 1 y 99
+	//mirandom= Math.floor((Math.random() * 10) + 30); entre 30 y 21
 
-	//CONSEGUIR UN NUMERO ALEATORIO ENTRE EL 1 y EL 10
-
-	//CONSIGO UN NUMERO ALEATORIO DEL 0 AL 1
-	numero = Math.random();
-
-	//MULTIPLICO POR 10 PARA CONSEGUIR UN NUMERO ENTRE EL 1 y el 10 O ALGO PARECIDO
-	numero = numero * 10;
-
-	//LO REDONDEO PARA QUE NO TENGA DECIMALES
-	numero = Math.round(numero);	
-
-
-	//MOSTRAR EL NUMERO ALEATORIO
-
-	
-	alert(numero);
-	
+	alert (mirandom);
 
 }//FIN DE LA FUNCIÓN
