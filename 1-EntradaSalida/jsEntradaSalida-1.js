@@ -2,10 +2,10 @@
 function Mostar()
 {
  
-
 var mensaje;
-mensaje= "esto funciona de maravilla";
-alert (mensaje);
+mensaje="esto funciona de maravilla"
+alert(mensaje);
+
 
 
 
